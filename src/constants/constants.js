@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'TechAlat',
+    description: "Blog app built with nextjs and graphcms",
+      image: '/images/bg.jpg',
+      tags: ['Nextjs',  'Graphcms'],
+    source: 'https://techalat.com',
+    visit: 'https://techalat.com',
+    id: 0,
+  },
+  {
     title: 'Elixir',
     description: "A real estate website built with javascript",
       image: '/images/1.png',
       tags: ['Bootstrap', 'Javascript'],
     source: 'https://skillq.netlify.app',
     visit: 'https://skillq.netlify.app',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Grendale',
@@ -15,7 +24,7 @@ export const projects = [
     tags: ['Bootstrap', 'JavaScript'],
     source: 'https://Grendale.netlify.app',
     visit: 'https://Grendale.netlify.app',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Camhotel',
@@ -24,7 +33,7 @@ export const projects = [
       tags: ['Javascript', 'Bootstrap'],
     source: 'https://camhotel.netlify.app',
     visit: 'https://camhotel.netlify.app',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Jesu seun',
@@ -33,7 +42,7 @@ export const projects = [
       tags: ['Javascript', 'Bootstrap'],
     source: 'https://jesuseun.netlify.app',
     visit: 'https://jesuseun.netlify.app',
-    id: 2,
+    id: 4,
   },
   {
     title: 'Neostudio',
@@ -42,23 +51,14 @@ export const projects = [
       tags: ['Javascript', 'Bootstrap'],
     source: 'https://neostudio.netlify.app',
     visit: 'https://neostudio.netlify.app',
-    id: 2,
-  },
-  {
-    title: 'Ambassadorhair',
-    description: "Men salon website built with Javascript",
-      image: '/images/6.jpg',
-      tags: ['Javascript', 'BootStrap'],
-    source: 'https://ambassadorhair.netlify.app',
-    visit: 'https://ambassadorhair.netlify.app',
-    id: 2,
+    id: 5,
   }
-
   
 ];
 
 export const TimeLineData = [
   { year: 2019, text: 'Worked as a freelance developer' },
   { year: 2020, text: 'Worked as a freelance developer' },
-  { year: 2021, text: 'Currently Working as a freelance developer' },
+  { year: 2021, text: 'Worked as a freelance developer' },
+  { year: 2022, text: 'Currently Working as a freelance developer' },
 ];

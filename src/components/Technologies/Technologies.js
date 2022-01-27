@@ -1,8 +1,9 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend, DiCss3, DiHtml5, DiJsBadge, DiBootstrap, DiGit, DiSass, DiWordpress } from 'react-icons/di';
+import { GrGraphQl } from 'react-icons/gr';
 import { RiFolderReceivedFill } from "react-icons/ri";
 import { FaVuejs } from "react-icons/fa";
-import { SiWebpack, SiNetlify, SiGooglesearchconsole, SiXcode, SiCodeship, SiCodersrank } from "react-icons/si";
+import { SiWebpack, SiNetlify, SiGooglesearchconsole, SiXcode, SiCodeship, SiCodersrank, SiTailwindcss } from "react-icons/si";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -36,6 +37,7 @@ const Technologies = () =>  (
           <DiReact size="3rem" /> React.js<br />
           <DiFirebase size="3rem" /> Next.js<br />
           <FaVuejs size="3rem" /> Vue.js<br />
+          <SiTailwindcss size="3rem" /> Tailwindcss<br />
           <DiBootstrap size="3rem" /> Bootstrap<br />
           </ListParagraph>
         </ListContainer>
@@ -50,6 +52,7 @@ const Technologies = () =>  (
           <DiSass size="3rem" /> Sass <br />
           <DiFirebase size="3rem" /> Firebase <br />
           <RiFolderReceivedFill size="3rem" /> Rest Api <br />
+          <GrGraphQl size="3rem" /> Graphql <br />
           <DiWordpress size="3rem" /> Wordpress <br />
           <SiWebpack size="3rem" /> Webpack <br />
           <SiNetlify size="3rem" /> Netlify <br />

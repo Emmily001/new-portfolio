@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
       I'm a Tech-savvy Web developer with a specialty in Front-end development, search engine optimization and digital marketing. I help your business evolve digitally and grow in your market by bringing in more clients and quality sales.
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      <Button onClick={() => window.location = 'https://techalat.com'}>Read my Blog</Button>
     </LeftSection>
   </Section>
 );
