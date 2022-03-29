@@ -57,8 +57,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: 'Worked as a freelance developer' },
-  { year: 2020, text: 'Worked as a freelance developer' },
-  { year: 2021, text: 'Worked as a freelance developer' },
-  { year: 2022, text: 'Currently Working as a freelance developer' },
+  { year: 1, text: 'Web Development' },
+  { year: 2, text: 'Web Support and Maintenance' },
+  { year: 3, text: 'Search Engine Optimisation(SEO)' },
+  { year: 4, text: 'Copywriting' },
 ];

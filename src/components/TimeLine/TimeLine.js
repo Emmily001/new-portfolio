@@ -46,7 +46,7 @@ const Timeline = () => {
    <Section id="about">
      <SectionTitle>About Me</SectionTitle>
      <SectionText>
-       Hi, i'm Emmanuel Ojo. I'm a web developer with 3 years expertise in developing web app projects in fast paced environments. Providing brilliant ideas for your business online success is what i do.
+       Hi, i'm Emmanuel Ojo. I'm a web developer with 4 years expertise in developing web app projects. Providing brilliant ideas for your business online success is what i do.
      </SectionText>
      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
        <>

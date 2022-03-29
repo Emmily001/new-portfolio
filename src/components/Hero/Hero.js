@@ -12,7 +12,8 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-      I'm a Tech-savvy Web developer with a specialty in Front-end development, search engine optimization and digital marketing. I help your business evolve digitally and grow in your market by bringing in more clients and quality sales.
+      Dear Entrepreneur
+            You are the kind of person that deserves the best. The ambition, vision, and guts of business owner like yourself have always been the driving force behind today's economy. I'm like you. You can trust me to deliver to your best satisfaction.
       </SectionText>
       <Button onClick={() => window.location = 'https://techalat.com'}>Read my Blog</Button>
     </LeftSection>

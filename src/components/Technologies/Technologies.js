@@ -2,7 +2,7 @@ import React from 'react';
 import { DiFirebase, DiReact, DiZend, DiCss3, DiHtml5, DiJsBadge, DiBootstrap, DiGit, DiSass, DiWordpress } from 'react-icons/di';
 import { GrGraphQl } from 'react-icons/gr';
 import { RiFolderReceivedFill } from "react-icons/ri";
-import { FaVuejs } from "react-icons/fa";
+import { FaVuejs, FaNode } from "react-icons/fa";
 import { SiWebpack, SiNetlify, SiGooglesearchconsole, SiXcode, SiCodeship, SiCodersrank, SiTailwindcss } from "react-icons/si";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
@@ -13,7 +13,7 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Tech Stack</SectionTitle>
     <SectionText>
-    I have a detailed understanding of complex, up-to-date programming languages and front-end technologies.
+    I have a detailed understanding of complex, up-to-date programming languages and full-stack technologies.
     </SectionText>
     <List>
       <ListItem>
@@ -25,6 +25,7 @@ const Technologies = () =>  (
           <DiHtml5 size="3rem" /> Html<br />
           <DiCss3 size="3rem" />Css<br />
           <DiJsBadge size="3rem" />Javascript<br />
+          <FaNode size="3rem" />NodeJs<br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
